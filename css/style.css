@@ -1,3 +1,18 @@
 body {
     background-color: pink;
 }
+
+.cool {
+    visibility: hidden;
+    width: 100px;
+    height: 50px;
+    background-color:rebeccapurple;
+    transition: background-color 2s;
+}
+
+.cool.blue {
+    visibility: visible;
+    width: 50px;
+    height: 100px;
+    background-color: lightblue;
+}

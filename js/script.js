@@ -1,3 +1,16 @@
+//hey this is invisible comment. 
+/* put hidden text here.
+*/
+
+//changing class name
+var CoolioStuff = function() {
+    var currentClassName = document.getElementById('coolio').className;
+    if (currentClassName == 'cool') {
+        document.getElementById('coolio').className = 'cool blue';
+    } else {
+        document.getElementById('coolio').className = 'cool';
+    }
+
 var sayMyName = function (name) {
     alert('Hello there ' +name);
 }
@@ -34,3 +47,4 @@ var dog = {
     };
 
     console.log('hello there friends!');
+}
