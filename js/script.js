@@ -2,6 +2,10 @@
 /* put hidden text here.
 */
 
+setTimeout(function () {
+    location.href = "rocket.html";
+}, 2000);
+
 //changing class name
 var CoolioStuff = function() {
     var currentClassName = document.getElementById('coolio').className;

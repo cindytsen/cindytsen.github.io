@@ -38,6 +38,11 @@ body {
 
 }
 
+.interface2 {
+    text-align: center;
+    padding 20px;
+}
+
 a.button {
     display: inline-block;
     background-color: teal;
