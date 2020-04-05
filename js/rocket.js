@@ -17,7 +17,7 @@ var changeState = function (state) {
                 }
 
              if (countdownNumber == 6) {
-                document.getElementById("nervous").className = "nervous show"
+                document.getElementById("nervous").className = "nervous show";
              }
 
              if (countdownNumber == 4) {
